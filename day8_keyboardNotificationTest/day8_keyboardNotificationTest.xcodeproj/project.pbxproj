@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001252ED187A33DF000BFE23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001252EC187A33DF000BFE23 /* Foundation.framework */; };
+		001252EF187A33DF000BFE23 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001252EE187A33DF000BFE23 /* CoreGraphics.framework */; };
+		001252F1187A33DF000BFE23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001252F0187A33DF000BFE23 /* UIKit.framework */; };
+		001252F7187A33DF000BFE23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 001252F5187A33DF000BFE23 /* InfoPlist.strings */; };
+		001252F9187A33DF000BFE23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 001252F8187A33DF000BFE23 /* main.m */; };
+		001252FD187A33DF000BFE23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 001252FC187A33DF000BFE23 /* AppDelegate.m */; };
+		00125300187A33DF000BFE23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 001252FE187A33DF000BFE23 /* Main.storyboard */; };
+		00125303187A33DF000BFE23 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00125302187A33DF000BFE23 /* ViewController.m */; };
+		00125305187A33DF000BFE23 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00125304187A33DF000BFE23 /* Images.xcassets */; };
+		0012530C187A33DF000BFE23 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0012530B187A33DF000BFE23 /* XCTest.framework */; };
+		0012530D187A33DF000BFE23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001252EC187A33DF000BFE23 /* Foundation.framework */; };
+		0012530E187A33DF000BFE23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001252F0187A33DF000BFE23 /* UIKit.framework */; };
+		00125316187A33DF000BFE23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00125314187A33DF000BFE23 /* InfoPlist.strings */; };
+		00125318187A33DF000BFE23 /* day8_keyboardNotificationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00125317187A33DF000BFE23 /* day8_keyboardNotificationTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0012530F187A33DF000BFE23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001252E1187A33DF000BFE23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 001252E8187A33DF000BFE23;
+			remoteInfo = day8_keyboardNotificationTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001252E9187A33DF000BFE23 /* day8_keyboardNotificationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = day8_keyboardNotificationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		001252EC187A33DF000BFE23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		001252EE187A33DF000BFE23 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		001252F0187A33DF000BFE23 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		001252F4187A33DF000BFE23 /* day8_keyboardNotificationTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "day8_keyboardNotificationTest-Info.plist"; sourceTree = "<group>"; };
+		001252F6187A33DF000BFE23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		001252F8187A33DF000BFE23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		001252FA187A33DF000BFE23 /* day8_keyboardNotificationTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "day8_keyboardNotificationTest-Prefix.pch"; sourceTree = "<group>"; };
+		001252FB187A33DF000BFE23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		001252FC187A33DF000BFE23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		001252FF187A33DF000BFE23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00125301187A33DF000BFE23 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		00125302187A33DF000BFE23 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		00125304187A33DF000BFE23 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0012530A187A33DF000BFE23 /* day8_keyboardNotificationTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = day8_keyboardNotificationTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0012530B187A33DF000BFE23 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		00125313187A33DF000BFE23 /* day8_keyboardNotificationTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "day8_keyboardNotificationTestTests-Info.plist"; sourceTree = "<group>"; };
+		00125315187A33DF000BFE23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00125317187A33DF000BFE23 /* day8_keyboardNotificationTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = day8_keyboardNotificationTestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		001252E6187A33DF000BFE23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001252EF187A33DF000BFE23 /* CoreGraphics.framework in Frameworks */,
+				001252F1187A33DF000BFE23 /* UIKit.framework in Frameworks */,
+				001252ED187A33DF000BFE23 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00125307187A33DF000BFE23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0012530C187A33DF000BFE23 /* XCTest.framework in Frameworks */,
+				0012530E187A33DF000BFE23 /* UIKit.framework in Frameworks */,
+				0012530D187A33DF000BFE23 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		001252E0187A33DF000BFE23 = {
+			isa = PBXGroup;
+			children = (
+				001252F2187A33DF000BFE23 /* day8_keyboardNotificationTest */,
+				00125311187A33DF000BFE23 /* day8_keyboardNotificationTestTests */,
+				001252EB187A33DF000BFE23 /* Frameworks */,
+				001252EA187A33DF000BFE23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		001252EA187A33DF000BFE23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				001252E9187A33DF000BFE23 /* day8_keyboardNotificationTest.app */,
+				0012530A187A33DF000BFE23 /* day8_keyboardNotificationTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		001252EB187A33DF000BFE23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				001252EC187A33DF000BFE23 /* Foundation.framework */,
+				001252EE187A33DF000BFE23 /* CoreGraphics.framework */,
+				001252F0187A33DF000BFE23 /* UIKit.framework */,
+				0012530B187A33DF000BFE23 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		001252F2187A33DF000BFE23 /* day8_keyboardNotificationTest */ = {
+			isa = PBXGroup;
+			children = (
+				001252FB187A33DF000BFE23 /* AppDelegate.h */,
+				001252FC187A33DF000BFE23 /* AppDelegate.m */,
+				001252FE187A33DF000BFE23 /* Main.storyboard */,
+				00125301187A33DF000BFE23 /* ViewController.h */,
+				00125302187A33DF000BFE23 /* ViewController.m */,
+				00125304187A33DF000BFE23 /* Images.xcassets */,
+				001252F3187A33DF000BFE23 /* Supporting Files */,
+			);
+			path = day8_keyboardNotificationTest;
+			sourceTree = "<group>";
+		};
+		001252F3187A33DF000BFE23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				001252F4187A33DF000BFE23 /* day8_keyboardNotificationTest-Info.plist */,
+				001252F5187A33DF000BFE23 /* InfoPlist.strings */,
+				001252F8187A33DF000BFE23 /* main.m */,
+				001252FA187A33DF000BFE23 /* day8_keyboardNotificationTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00125311187A33DF000BFE23 /* day8_keyboardNotificationTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				00125317187A33DF000BFE23 /* day8_keyboardNotificationTestTests.m */,
+				00125312187A33DF000BFE23 /* Supporting Files */,
+			);
+			path = day8_keyboardNotificationTestTests;
+			sourceTree = "<group>";
+		};
+		00125312187A33DF000BFE23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00125313187A33DF000BFE23 /* day8_keyboardNotificationTestTests-Info.plist */,
+				00125314187A33DF000BFE23 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		001252E8187A33DF000BFE23 /* day8_keyboardNotificationTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0012531B187A33DF000BFE23 /* Build configuration list for PBXNativeTarget "day8_keyboardNotificationTest" */;
+			buildPhases = (
+				001252E5187A33DF000BFE23 /* Sources */,
+				001252E6187A33DF000BFE23 /* Frameworks */,
+				001252E7187A33DF000BFE23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = day8_keyboardNotificationTest;
+			productName = day8_keyboardNotificationTest;
+			productReference = 001252E9187A33DF000BFE23 /* day8_keyboardNotificationTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00125309187A33DF000BFE23 /* day8_keyboardNotificationTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0012531E187A33DF000BFE23 /* Build configuration list for PBXNativeTarget "day8_keyboardNotificationTestTests" */;
+			buildPhases = (
+				00125306187A33DF000BFE23 /* Sources */,
+				00125307187A33DF000BFE23 /* Frameworks */,
+				00125308187A33DF000BFE23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00125310187A33DF000BFE23 /* PBXTargetDependency */,
+			);
+			name = day8_keyboardNotificationTestTests;
+			productName = day8_keyboardNotificationTestTests;
+			productReference = 0012530A187A33DF000BFE23 /* day8_keyboardNotificationTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		001252E1187A33DF000BFE23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "SDT-1";
+				TargetAttributes = {
+					00125309187A33DF000BFE23 = {
+						TestTargetID = 001252E8187A33DF000BFE23;
+					};
+				};
+			};
+			buildConfigurationList = 001252E4187A33DF000BFE23 /* Build configuration list for PBXProject "day8_keyboardNotificationTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 001252E0187A33DF000BFE23;
+			productRefGroup = 001252EA187A33DF000BFE23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				001252E8187A33DF000BFE23 /* day8_keyboardNotificationTest */,
+				00125309187A33DF000BFE23 /* day8_keyboardNotificationTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		001252E7187A33DF000BFE23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00125305187A33DF000BFE23 /* Images.xcassets in Resources */,
+				001252F7187A33DF000BFE23 /* InfoPlist.strings in Resources */,
+				00125300187A33DF000BFE23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00125308187A33DF000BFE23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00125316187A33DF000BFE23 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		001252E5187A33DF000BFE23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00125303187A33DF000BFE23 /* ViewController.m in Sources */,
+				001252FD187A33DF000BFE23 /* AppDelegate.m in Sources */,
+				001252F9187A33DF000BFE23 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00125306187A33DF000BFE23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00125318187A33DF000BFE23 /* day8_keyboardNotificationTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00125310187A33DF000BFE23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 001252E8187A33DF000BFE23 /* day8_keyboardNotificationTest */;
+			targetProxy = 0012530F187A33DF000BFE23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		001252F5187A33DF000BFE23 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				001252F6187A33DF000BFE23 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		001252FE187A33DF000BFE23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				001252FF187A33DF000BFE23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00125314187A33DF000BFE23 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00125315187A33DF000BFE23 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00125319187A33DF000BFE23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0012531A187A33DF000BFE23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0012531C187A33DF000BFE23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "day8_keyboardNotificationTest/day8_keyboardNotificationTest-Prefix.pch";
+				INFOPLIST_FILE = "day8_keyboardNotificationTest/day8_keyboardNotificationTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0012531D187A33DF000BFE23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "day8_keyboardNotificationTest/day8_keyboardNotificationTest-Prefix.pch";
+				INFOPLIST_FILE = "day8_keyboardNotificationTest/day8_keyboardNotificationTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0012531F187A33DF000BFE23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/day8_keyboardNotificationTest.app/day8_keyboardNotificationTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "day8_keyboardNotificationTest/day8_keyboardNotificationTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "day8_keyboardNotificationTestTests/day8_keyboardNotificationTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		00125320187A33DF000BFE23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/day8_keyboardNotificationTest.app/day8_keyboardNotificationTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "day8_keyboardNotificationTest/day8_keyboardNotificationTest-Prefix.pch";
+				INFOPLIST_FILE = "day8_keyboardNotificationTestTests/day8_keyboardNotificationTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		001252E4187A33DF000BFE23 /* Build configuration list for PBXProject "day8_keyboardNotificationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00125319187A33DF000BFE23 /* Debug */,
+				0012531A187A33DF000BFE23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0012531B187A33DF000BFE23 /* Build configuration list for PBXNativeTarget "day8_keyboardNotificationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0012531C187A33DF000BFE23 /* Debug */,
+				0012531D187A33DF000BFE23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0012531E187A33DF000BFE23 /* Build configuration list for PBXNativeTarget "day8_keyboardNotificationTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0012531F187A33DF000BFE23 /* Debug */,
+				00125320187A33DF000BFE23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 001252E1187A33DF000BFE23 /* Project object */;
+}
