@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		001A5E85187D424500E4F312 /* fm01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 001A5E80187D424500E4F312 /* fm01.jpg */; };
+		001A5E86187D424500E4F312 /* fm02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 001A5E81187D424500E4F312 /* fm02.jpg */; };
+		001A5E87187D424500E4F312 /* fm03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 001A5E82187D424500E4F312 /* fm03.jpg */; };
+		001A5E88187D424500E4F312 /* fm04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 001A5E83187D424500E4F312 /* fm04.jpg */; };
+		001A5E89187D424500E4F312 /* fm05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 001A5E84187D424500E4F312 /* fm05.jpg */; };
 		00F00723187D3C09007224A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F00722187D3C09007224A5 /* Foundation.framework */; };
 		00F00725187D3C09007224A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F00724187D3C09007224A5 /* CoreGraphics.framework */; };
 		00F00727187D3C09007224A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F00726187D3C09007224A5 /* UIKit.framework */; };
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		001A5E80187D424500E4F312 /* fm01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fm01.jpg; path = res/fm01.jpg; sourceTree = "<group>"; };
+		001A5E81187D424500E4F312 /* fm02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fm02.jpg; path = res/fm02.jpg; sourceTree = "<group>"; };
+		001A5E82187D424500E4F312 /* fm03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fm03.jpg; path = res/fm03.jpg; sourceTree = "<group>"; };
+		001A5E83187D424500E4F312 /* fm04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fm04.jpg; path = res/fm04.jpg; sourceTree = "<group>"; };
+		001A5E84187D424500E4F312 /* fm05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fm05.jpg; path = res/fm05.jpg; sourceTree = "<group>"; };
 		00F0071F187D3C09007224A5 /* day9_3_3_8_154p_bettingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = day9_3_3_8_154p_bettingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00F00722187D3C09007224A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		00F00724187D3C09007224A5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,9 +89,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		001A5E7F187D41F000E4F312 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				001A5E80187D424500E4F312 /* fm01.jpg */,
+				001A5E81187D424500E4F312 /* fm02.jpg */,
+				001A5E82187D424500E4F312 /* fm03.jpg */,
+				001A5E83187D424500E4F312 /* fm04.jpg */,
+				001A5E84187D424500E4F312 /* fm05.jpg */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
 		00F00716187D3C09007224A5 = {
 			isa = PBXGroup;
 			children = (
+				001A5E7F187D41F000E4F312 /* Image */,
 				00F00728187D3C09007224A5 /* day9_3_3_8_154p_bettingGame */,
 				00F00747187D3C09007224A5 /* day9_3_3_8_154p_bettingGameTests */,
 				00F00721187D3C09007224A5 /* Frameworks */,
@@ -229,8 +252,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				00F0073B187D3C09007224A5 /* Images.xcassets in Resources */,
+				001A5E87187D424500E4F312 /* fm03.jpg in Resources */,
+				001A5E86187D424500E4F312 /* fm02.jpg in Resources */,
 				00F0072D187D3C09007224A5 /* InfoPlist.strings in Resources */,
+				001A5E88187D424500E4F312 /* fm04.jpg in Resources */,
 				00F00736187D3C09007224A5 /* Main.storyboard in Resources */,
+				001A5E85187D424500E4F312 /* fm01.jpg in Resources */,
+				001A5E89187D424500E4F312 /* fm05.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +488,7 @@
 				00F00753187D3C09007224A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00F00754187D3C09007224A5 /* Build configuration list for PBXNativeTarget "day9_3_3_8_154p_bettingGameTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +497,7 @@
 				00F00756187D3C09007224A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
